@@ -1,0 +1,21 @@
+footer {
+    background-color: #E66BB9
+}
+
+.top-footer {
+    background-color: #a14a81
+}
+
+.bottom-footer{
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+hr {
+    height: 1px;
+    background-color: #a14a81;
+}
+
+footer hr{
+    width: 60px;
+    height: 2px;
+}

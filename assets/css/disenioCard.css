@@ -1,0 +1,59 @@
+/*=====================
+	seccion de Productos
+=======================*/
+.container {
+	margin-top:80px;
+	max-width: 1100px;
+	margin-width: 15px;
+}
+.row{
+	margin-left: 10px;
+}
+.pricing-header {
+  max-width: 700px;
+}
+.container .card{
+	width: 335px;
+	height: 510px;
+	border-style: none;
+}
+
+.container .card-header{
+	background: #FFF;
+	border-style: none;
+}
+.container .card img{
+	width: 234px;
+	height: 234px;
+}
+.container .card h5{
+	font-weight: 600;
+}
+.container .card p{
+	padding:40 1rem;
+	font-size: 16px;
+	font-weight: 300;
+	min-height:70px;
+	max-height:70px;
+
+}
+.container .card a{
+	font-weight: 234;
+	text-decoration: none;
+	color: 34;
+}
+.container .card small{
+font-size: 60%;
+    line-height: inherit;
+}
+.container .card:hover{
+	border-style: solid;
+	border-color: #FF3399;
+}
+
+
+#imgFlotantes{
+	position: absolute;
+	width: 234px;
+	height: 234px;
+}

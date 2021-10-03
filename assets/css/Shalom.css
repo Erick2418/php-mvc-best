@@ -1,0 +1,88 @@
+.carousel-itemss {
+height : 65vh;
+min-height: 300px;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+font-size: 3.5rem;
+}
+}
+
+.btn-divina{background-color:#E66BB9;color: #FFF;} 
+.btn-divina:hover{color: #FFF;} 
+
+.btn-blond{background-color:#DFDF4A;color: #FFF;} 
+.btn-blond:hover{color: #FFF;} 
+
+.btn-gina{background-color:#CA85F1;color: #FFF;} 
+.btn-gina:hover{color: #FFF;} 
+
+.btn-Ana{background-color:#50F8E6;color: #FFF;} 
+.btn-Ana:hover{color: #FFF;} 
+
+.btn-gree{background-color:#3BFA6F;color: #FFF;} 
+.btn-gree:hover{color: #FFF;} 
+
+
+@font-face {
+font-family: 'Ulala';
+src: url(./fuentes/BlackHouse.ttf);
+
+
+}
+
+@font-face {
+font-family: 'Ulalit';
+src: url(./fuentes/Good Mood.ttf);
+
+
+}
+
+#fuente-ulala
+{
+font-family: 'Ulala';
+font-size: 30px;
+
+}    	
+
+#fuente-ulalit
+{
+font-family: 'Ulalit';
+font-size: 30px;
+text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}  
+
+.btn-logo{
+
+background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor:pointer;
+overflow: hidden;   
+}
+.btn-logo:hover{color: #FFF;} 
+
+.logo-slider
+{
+position: absolute;
+left: 0;
+right: 0;
+top: -350px;
+margin: 0 auto;
+z-index: 9999999;
+}

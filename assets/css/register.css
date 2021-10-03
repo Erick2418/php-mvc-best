@@ -1,0 +1,162 @@
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .btn-divina{background-color:#E66BB9;color: #FFF;} 
+      .btn-divina:hover{color: #FFF;} 
+     #fuente-ulalit
+      {
+        font-family: 'Ulalit';
+        font-size: 30px;
+        text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+      }  
+
+
+      .imagen1:hover{
+      border-radius:50%;
+      -webkit-border-radius:50%;
+      box-shadow: 0px 0px 15px 15px #ec731e;
+      -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      }
+
+
+
+      *,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+    ** Root elemnt font size
+    ** No default margins and paddings
+*/
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+    **root elements display block
+*/
+html,
+body {
+  display: block;
+}
+
+/*
+    ** Body main style
+*/
+body {
+  line-height: 1.317101995;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+.centered-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  background-color: #434343;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  height: 60px;
+  width: 250px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color:#F5D2F5;
+  color: #000;
+  font-size: 18px;
+  overflow: hidden;
+  transition: all 500ms ease;
+  border: 2px solid #FF26DB;
+  margin-bottom: 40px;
+  z-index: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  background-color: #FF26DB;
+  transition: all 500ms ease;
+  z-index: -1;
+}
+.btn--1::before {
+  width: 0;
+  height: 100%;
+}
+.btn--1:hover {
+  color: #434343;
+}
+.btn--1:hover::before {
+  width: 100%;
+}
+.btn--2:hover {
+  background-color: #20e2d7;
+  box-shadow: 0 0 10px #20e2d7, 0 0 20px #20e2d7, 0 0 20px #20e2d7;
+  color: #434343;
+}
+.btn--3:hover {
+  animation: shadow-pulse 1000ms 1;
+  background-color: #20e2d7;
+  color: #434343;
+}
+.btn--4::before {
+  left: -520px;
+  right: 0;
+  width: 100%;
+  height: 150%;
+  transition: all 750ms ease;
+  transform: rotate(45deg);
+  box-shadow: 0 0 10px #FF26DB, 0 0 20px #FF26DB, 0 0 20px #FF26DB;
+}
+.btn--4:hover::before {
+  left: 520px;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(32, 226, 215, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0);
+  }
+}
+
+
+.imagen2:hover {filter: saturate(180%);}
+
+.imagen:hover {
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;}
+
